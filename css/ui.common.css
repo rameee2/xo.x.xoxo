@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* Reset Style 
+------------------------------------------------------------------*/
+html {font-size:100%;}
+html, body { background:#ffffff; }
+html, body, div, p, span, strong, em, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, form, select, textarea, input, button, blockquote, th, td, a {
+	margin:0; padding:0; font:normal 14px/19px '맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,AppleGothic,sans-serif;-webkit-text-size-adjust:none;
+}
+
+body.ui-lang-zh_CN, body.ui-lang-zh_CN div, body.ui-lang-zh_CN p, body.ui-lang-zh_CN span, body.ui-lang-zh_CN strong, body.ui-lang-zh_CN em, body.ui-lang-zh_CN h1, body.ui-lang-zh_CN h2, body.ui-lang-zh_CN h3, body.ui-lang-zh_CN h4, body.ui-lang-zh_CN h5, body.ui-lang-zh_CN h6, body.ui-lang-zh_CN dl, body.ui-lang-zh_CN dt, body.ui-lang-zh_CN dd, body.ui-lang-zh_CN ul, body.ui-lang-zh_CN ol, body.ui-lang-zh_CN li, body.ui-lang-zh_CN form, body.ui-lang-zh_CN select, body.ui-lang-zh_CN textarea, body.ui-lang-zh_CN input, body.ui-lang-zh_CN button, body.ui-lang-zh_CN blockquote, body.ui-lang-zh_CN th, body.ui-lang-zh_CN td, body.ui-lang-zh_CN a
+{ font-family: Tahoma, Helvetica, SimSun, 'MS Mincho', 微软雅黑, STXihei, 华文细黑, NanumGothic, 돋움, sans-serif; }
+
+body.ui-lang-zh_TW, body.ui-lang-zh_TW div, body.ui-lang-zh_TW p, body.ui-lang-zh_TW span, body.ui-lang-zh_TW strong, body.ui-lang-zh_TW em, body.ui-lang-zh_TW h1, body.ui-lang-zh_TW h2, body.ui-lang-zh_TW h3, body.ui-lang-zh_TW h4, body.ui-lang-zh_TW h5, body.ui-lang-zh_TW h6, body.ui-lang-zh_TW dl, body.ui-lang-zh_TW dt, body.ui-lang-zh_TW dd, body.ui-lang-zh_TW ul, body.ui-lang-zh_TW ol, body.ui-lang-zh_TW li, body.ui-lang-zh_TW form, body.ui-lang-zh_TW select, body.ui-lang-zh_TW textarea, body.ui-lang-zh_TW input, body.ui-lang-zh_TW button, body.ui-lang-zh_TW blockquote, body.ui-lang-zh_TW th, body.ui-lang-zh_TW td, body.ui-lang-zh_TW a
+{ font-family: Tahoma, Helvetica, SimSun, 'MS Mincho', 微软雅黑, STXihei, 华文细黑, NanumGothic, 돋움, sans-serif; }
+
+body.ui-tablet, body.ui-tablet div, body.ui-tablet p, body.ui-tablet span, body.ui-tablet strong, body.ui-tablet em, body.ui-tablet h1, body.ui-tablet h2, body.ui-tablet h3, body.ui-tablet h4, body.ui-tablet h5, body.ui-tablet h6, body.ui-tablet dl, body.ui-tablet dt, body.ui-tablet dd, body.ui-tablet ul, body.ui-tablet ol, body.ui-tablet li, body.ui-tablet form, body.ui-tablet select, body.ui-tablet textarea, body.ui-tablet input, body.ui-tablet button, body.ui-tablet blockquote, body.ui-tablet th, body.ui-tablet td, body.ui-tablet a
+{ font:normal 14px/19px HelveticaNeue-Light,AppleSDGothicNeo-Light,sans-serif; }
+
+html, body {color:#767676;}
+dl,ul,ol {list-style:none;}
+em, i, address {font-style:normal;}
+img {vertical-align:top;border:0;}
+table {width:100%;border:0;border-collapse:collapse;border-spacing:0;}
+table caption {overflow:hidden;width:1px;height:0;font-size:0;line-height:0;}
+a, a:link, a:visited, a:hover, a:active, a:focus {color:#767676;text-decoration:none;}
+fieldset {display:block;border:0;}
+legend {overflow:hidden;width:1px;height:0;font-size:0;line-height:0;}
+button {overflow:visible;cursor:pointer;border:0;background:transparent;}
+hr {visibility:hidden;overflow:hidden;clear:both;height:0;}
+select, input, textarea {vertical-align:middle;-webkit-border-radius:0px 0px;border-radius:0px 0px;}
+input[type='text'], textarea {-webkit-appearance:none;}
+textarea {overflow:hidden;padding:5px 0 0 5px;resize:none;}
+input[type='checkbox'] {width:14px;height:14px;margin:0 3px 0 0;vertical-align:top;}
+input[type='radio'] {width:14px;height:14px;vertical-align:top;}
+button[type='submit']::-moz-focus-inner {padding:0;border:0;} /* firefox padding,margin reset */
+
+/* HTML5 Tag
+------------------------------------------------------------------*/
+article,aside,canvas,details,figcaption,figure, footer,header,menu,nav,section,summary {display:block;}
+
+/* Common Style
+------------------------------------------------------------------*/
+.ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.cboth:before, .cboth:after {content:"";display:table;}
+.cboth:after {clear:both;}
+
+
+
+
+
+
+

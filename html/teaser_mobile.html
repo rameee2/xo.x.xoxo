@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>2016 O'live Food Festival</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="../css/ui.common.css" />
+	<link rel="stylesheet" type="text/css" href="../css/ui.teaser.mobile.css" />
+	<script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="../js/ui.useragent.js"></script>
+	<script type="text/javascript" src="../js/TweenMax.min.js"></script>
+	<!-- <script type="text/javascript" src="../js/cjem.ui.video.js"></script> -->
+	<script type="text/javascript" src="http://ui.mnet.com/guide/js/cjem.ui.video-html5.min.js"></script>
+	<script type="text/javascript" src="../js/mainAlert.js"></script>
+	<script type="text/javascript" src="../js/ui.teaser.mobile.js"></script>
+	
+	<script type="text/javascript">
+		var p;
+		
+		function makeVideo() {
+            $('.food-top-visual-play-vod').html('<div class="food-top-visual-play-vod-box" id="cjplayer" style="width:100%; height:100%;">');
+            p = $('.food-top-visual-play-vod-box');
+            p.cjvideo({
+                stream_type:"streaming"
+                , server : "http://freevod.olive.cjenm.skcdn.com/olive/foodfestival/2016olivefoodfestival_Teaser_EarlyBird.mp4"
+              
+                    , flash: 'http://static.global.mnet.com/data/od/flash/player/cjem_player_tv.swf?v=16'
+
+		            , cover: 'http://img.lifestyler.co.kr/DevImg/oliveFestival/images/teaser/vod_1000x563_01.jpg'
+                    // , targetPlayBtn: $('.js_main_section_visual_play_open')
+                    , autoplay: 'N'
+                    , hide_control: 'Y'
+            });
+            p.make();
+        }
+
+        $(function () {
+            makeVideo();
+        });
+	</script>
+</head>
+<body>
+
+<div id="wrap">
+
+	<div id="container">
+	
+		<div id="content">
+			<div class="inner">
+				<h1>2016 O'live Food Festival</h1>
+				<h2 class="logo">Delicious Busan</h2>
+				<p class="logo_summary">September 2ND - 4TH, 2016 부산 영화의 전당</p>
+				<p class="teaser_play">
+					<a href="#" class="btn_top_teaserPlay js_main_section_visual_play_open disabled"><span>Teaser Play</span></a>
+					<a href="#" class="btn_top_viewDetail js_main_section_visual_play_open"><span>View Detail</span></a>
+				</p>
+				<ul class="share_link">
+					<li class="share_facebook"><a href="#">facebook</a></li>
+					<li class="share_instagram"><a href="#">instagram</a></li>
+				</ul>
+			</div>
+			
+			<div id="bg_festival" class="jq_bg_festival">
+				<ul>
+					<li class="bg_festival_item_1 selected"></li>
+					<li class="bg_festival_item_2"></li>
+					<li class="bg_festival_item_3"></li>
+					<li class="bg_festival_item_4"></li>
+					<li class="bg_festival_item_5"></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="newsletter">
+			<div class="inner">
+				<div class="tickets"><span class="tickets_click">Early Birds Tickets Open!! July 8TH</span></div>
+				<div class="newsletterWrap">
+					<form  class="newsletterform">
+	          <fieldset>
+	            <legend>news letter</legend>
+	            <p class="inputSearch"><span><input id="email" name="email" class="newsletter-keyword-input" data-placeholder="enter your email to subscribe" value="enter your email to subscribe"></span></p>
+	            <button type="submit" class="btnSend">Send</button>
+	          </fieldset>
+	        </form>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div id="partnership">
+		<div class="inner">
+			<div class="inner_content">
+				<span class="btn_partnership jq_partnership"><em>Partnership</em></span>
+				<h2 class="partnership_ti">올리브 푸드 페스티벌과 함께 하세요</h2>
+				<p class="partnership_summary">당신의 1년을 더 맛있게 해줄 올리브 푸드 페스티벌! 국내 최고의 푸드테인먼트 페스티벌 '올리브 푸드 페스티벌'은 프리미엄 라이프스타일을 지향하는 파트너를 찾습니다! 타깃지향적인 부스 체험 및 이벤트 진행, 양사간 win-win할 수 있는 마케팅 제휴까지! Delicious Lifestyle을 추구하는 브랜드 & 파트너라면 함께해주세요!</p>
+				<ul class="partnership_list">
+					<li class="project_manager"><a href="mailto:hr.cho1@cj.net" class="partnership_li_link">Project Manager 조혜령</a></li>
+					<li class="sales_specialist"><a href="mailto:ej.oh@cj.net" class="partnership_li_link">Sales Specialist 김은하</a></li>
+					<li class="download_pdf"><a href="#" class="partnership_li_link">Download PDF 파트너쉽 패키지</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="partnership_hide jq_partnership_hide"></div>
+	
+	<div class="food-top-visual-play js-food-play-box">
+		<div class="food-top-visual-play-inner">
+			<div class="food-top-visual-play-vod">
+				<div class="food-top-visual-play-vod-box" style="width:100%; height:100%;">
+					<img src="../images/teaser/vod_1000x563_01.jpg" alt="" class="tempPic" />
+				</div>
+			</div>
+			<div class="food-top-visual-play-vod-close">
+				<a href="#" class="js-food-play-close">Play Close</a>
+			</div>
+		</div>
+		<div class="food-top-visual-play-bg js-food-top-visual-play-bg"></div>
+	</div>
+
+</div>
+
+<div id="main-alert" class="main-alert hide enabled">
+  <div class="main-alert--container">
+    <p></p>
+    <div class="btn-area">
+      <button class="type2"></button>
+      <button class="type1"></button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

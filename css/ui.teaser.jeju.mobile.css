@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+
+#wrap{position:relative;width:100%;}
+/* 타이틀 text지우기 */
+#content h1
+, #content h2.logo
+, #content p.logo_summary
+, #content p.teaser_play a span
+, #content ul.sns_link li a
+, #newsletter .tickets .tickets_click
+, #partnership .btn_partnership em
+, #partnership .partnership_list li .partnership_li_link { font-size:0; line-height:0; text-indent:-99999px; }
+
+/* --------------- 상단 : container --------------- */
+#container{position:relative;width:100%;background:#ffcccc;}
+
+#content{position:relative;width:100%;height:519px;}
+#content .inner{position:relative;width:320px;margin:0px auto;padding:80px 0 0;height:518px;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:11;}
+#content .inner h1{margin:0px auto 13px auto;width:131px;height:131px;background:url(../images/teaser/mo_jeju_h1.png) no-repeat center top;-webkit-background-size:131px 131px;background-size:131px 131px;display:block;}
+#content .inner .logo{margin:0px auto 73px auto;width:250px;height:100px;background:url(../images/teaser/mo_jeju_logo.png) no-repeat center top;-webkit-background-size:250px 100px;background-size:250px 100px;display:block;}
+#content .inner .logo_summary{margin:0px auto 17px auto;width:260px;height:40px;background:url(../images/teaser/mo_logo_jeju_summary_01.png) no-repeat center top;-webkit-background-size:260px 40px;background-size:260px 40px;display:block;}
+#content .inner .teaser_play{margin:0px;display:block;height:50px;text-align:center;}
+#content .inner .teaser_play a{margin:0px 1px;width:137px;height:40px;vertical-align:top;cursor:pointer;background:url(../images/teaser/mo_btn_teaser_play.png) no-repeat center top;-webkit-background-size:137px 40px;background-size:137px 40px;display:inline-block;}
+#content .inner .teaser_play a span{display:block;width:137px;height:40px; }
+#content .inner .teaser_play a.btn_photo{background-image:url(../images/teaser/mo_btn_jeju_teaser_play.png)}
+#content .inner .teaser_play a.btn_photo.disabled { cursor:default; opacity:.3; filter:alpha(opacity=30); }
+#content .inner .teaser_play a.btn_detail{background-image:url(../images/teaser/mo_btn_view_detail.png)}
+
+#content .inner .sns_link{position:absolute;top:7px;right:10px;height:35px;text-align:center;display:block;}
+#content .inner .sns_link li{padding:0px;height:35px;vertical-align:top;display:inline-block;}
+#content .inner .sns_link li a{display:block;width:35px;height:35px;background:url(../images/teaser/mo_btn_share_link.png) no-repeat 0px 0px;-webkit-background-size:35px 100px;background-size:35px 100px;}
+#content ul.sns_link li.sns_instagram a{background-position:0px -50px;}
+
+/* 100%배경_움직임 fadeIN/fadeOUT */
+#bg_festival{position:absolute;top:0;left:0;width:100%;height:100%;}
+#bg_festival ul{position:relative;width:100%;height:100%;}
+#bg_festival ul li{position:absolute;top:0;left:0;width:100%;height:100%;background:url(../images/teaser/mo_bg_pic_jeju_01.jpg) no-repeat center center;-webkit-background-size:cover;background-size:cover;display:block;opacity:0;filter:Alpha(opacity=0);}
+#bg_festival ul li.bg_festival_item_1 { background-image:url(../images/teaser/mo_bg_pic_jeju_01.jpg); }
+#bg_festival ul li.bg_festival_item_2 { background-image:url(../images/teaser/mo_bg_pic_jeju_02.jpg); }
+#bg_festival ul li.bg_festival_item_3 { background-image:url(../images/teaser/mo_bg_pic_jeju_03.jpg); }
+#bg_festival ul li.bg_festival_item_4 { background-image:url(../images/teaser/mo_bg_pic_jeju_04.jpg); }
+#bg_festival ul li.bg_festival_item_5 { background-image:url(../images/teaser/mo_bg_pic_jeju_05.jpg); }
+#bg_festival ul li.selected { opacity:1;filter:Alpha(opacity=100); }
+
+#newsletter{margin:0px;padding:0px;background:#272727;display:block;}
+#newsletter .inner{padding:38px 0 44px 0;position:relative;width:320px;margin:0px auto;}
+#newsletter .inner .tickets{margin:0 0 34px 0;text-align:center;height:122px;background:url(../images/teaser/mo_bg_jeju_tickets.png) no-repeat center center;-webkit-background-size:200px 122px;background-size:200px 122px;}
+
+#newsletter .inner .newsletterWrap{margin:0 20px;display:block;}
+#newsletter .inner .newsletterWrap .newsletterform{position:relative;margin:0px;display:block;}
+#newsletter .inner .newsletterWrap .newsletterform fieldset{position:relative;padding:0px;height:50px;background:#5d5d5d;display:block;}
+#newsletter .inner .newsletterWrap .newsletterform fieldset .inputSearch{margin:0 50px 0 0;padding:6px 10px 0 10px;height:44px;display:block;}
+#newsletter .inner .newsletterWrap .newsletterform fieldset .inputSearch input{margin:0px;padding:0px;width:100%;height:38px;font-size:12px;color:#cfcfcf;line-height:38px;border-width:0;outline-width:0;background:transparent;}
+#newsletter .inner .newsletterWrap .newsletterform fieldset .btnSend{position:absolute;top:0;right:0;color:#fff;width:50px;height:50px;background:#23b300;text-transform:uppercase;}
+
+/* --------------- //상단 : container --------------- */
+
+/* --------------- 하단 : partnership --------------- */
+#partnership{position:relative;width:100%;background:#ccccff;}
+#partnership .inner{position:relative;width:320px;margin:0px auto;}
+#partnership .inner .inner_content{padding:64px 0 60px 0;}
+#partnership .inner .inner_content .btn_partnership{margin:0 0 30px 0;display:block;}
+#partnership .inner .inner_content .btn_partnership em{width:100%;height:10px;background:url(../images/teaser/mo_btn_partnership.png) no-repeat center center;-webkit-background-size:100px 10px;background-size:100px 10px;display:block;}
+#partnership .inner .inner_content .partnership_ti{margin:0 0 10px 0;text-align:center;color:#fff;font-size:16px;font-weight:bold;}
+#partnership .inner .inner_content .partnership_summary{margin:0 0 60px 0;text-align:center;color:#fff;font-size:12px;line-height:18px;}
+
+#partnership .inner .inner_content .partnership_list{width:280px;margin:0px auto;display:block;}
+#partnership .inner .inner_content .partnership_list li{display:block;width:100%;height:75px;margin:0 0 5px 0;}
+#partnership .inner .inner_content .partnership_list li .partnership_li_link{display:block;width:100%;height:100%;background:url(../images/teaser/mo_jeju_partnership_link.png) no-repeat center 0;-webkit-background-size:280px 300px; background-size:280px 300px;}
+#partnership .inner .inner_content .partnership_list li.partnership_btn01 .partnership_li_link{background-position:0px 0px;}
+#partnership .inner .inner_content .partnership_list li.partnership_btn02 .partnership_li_link{background-position:0px -100px}
+#partnership .inner .inner_content .partnership_list li.partnership_btn03 .partnership_li_link{background-position:0px -200px}
+
+/* --------------- //하단 : partnership --------------- */
+
